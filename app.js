@@ -1,3 +1,10 @@
+// Preloader 
+window.addEventListener('load', () => {
+    const loader = document.getElementById('preloader');
+    loader.style.display = 'none';
+});
+
+
 
 document.getElementById('search-btn').addEventListener('click', () => {
     let getSearchValue = document.getElementById('search-input')
